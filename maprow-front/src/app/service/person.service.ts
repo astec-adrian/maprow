@@ -25,5 +25,5 @@ export class PersonService {
     return this.httpClient.get<Person>(this.serverUrl + '/name/' + name);
   }
 
-  private serverUrl = 'http://localhost:8080/person';
+  private serverUrl = 'http://localhost:8081/person';
 }
