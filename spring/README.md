@@ -2,7 +2,7 @@
 
 ## Change the postgres password
 
-- Enter `maprow-back/src/main/resources/application.properties` and change the password:
+- Open `maprow-back/src/main/resources/application.properties` and change the password:
 `spring.datasource.password={password}`
 
 ## Run the application
