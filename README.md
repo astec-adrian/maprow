@@ -1,4 +1,14 @@
-﻿# Basic dev environment setup
+﻿# How to run the application
+
+- Download required tools listed below.
+- Run the Spring server
+	>**NOTE**: Further instructions in spring README.
+- Run the GeoServer
+	>**NOTE**: Further instructions in geoserver README.
+- Run the Angular server
+	>**NOTE**: Further instructions in maprow-front README.
+
+# Basic dev environment setup
 
 ## Windows
 
