@@ -14,7 +14,7 @@ export class PersonComponent implements OnInit
 
   ngOnInit(): void
   {
-
+    this.setPeople();
   }
 
   private setPeople(): void
