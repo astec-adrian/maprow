@@ -1,6 +1,6 @@
 # How to run GeoServer
 
-- Navigate to **GeoServer** folder installation.
+- Navigate to **GeoServer** installation folder.
 - Edit `webapps/geoserver/WEB-INF/web.xml`.
 	- Uncomment **CORS** filter for **Jetty**.
 	- Uncomment **CORS** filter-mapping. 
