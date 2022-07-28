@@ -56,14 +56,6 @@ Download **IntelliJ IDEA** from https://www.jetbrains.com/idea/download/#section
 `npm install -g @angular/cli`
 	- Once all packages have been added, verify the installed version: `ng version`
 
-- Creating **Angular** project:
-	- To create new project type: `ng new project-name`.
-	- Access your project’s root folder from the **Windows Command Prompt** and enter the following command: `ng serve`
-The system will generate the environment for your **Angular** application.
-	- Use your web browser to access the **Angular** local development server: http://localhost:4200/.
-- Adding **Leaflet** library:
-	- Access the **Windows Command Prompt**, go to project's root folder and enter the following command: `npm install leaflet`.
-
 ## Linux
 
 ### Java:
@@ -154,24 +146,3 @@ Download **NPM**  using package manager. Type `npm -v` to check if **NPM** was i
 - Install **Angular CLI** using **NPM**
 Log in as root and run following command: `npm install -g @angular/cli`
 Run `ng version` to make sure installation was correct.
-
-- Add **Leaflet** library
-Access project's root folder and enter the following command: `npm install leaflet`.
-
-### Spring Boot:
-
-- To create **IntelliJ** project with **Spring Boot** go to https://start.spring.io/.
-
-- Selecting project options:
-	- **Project**: Maven Project
-	- **Language**: Java
-	- **Spring Boot**: the latest version
-	- **Project Metadata**: any
-	- **Packaging**: Jar
-	- **Java**: your current version
-
-- Selecting dependencies:
-	- **Spring Web**
-	- **Spring Data JPA**
-	- **PostgreSQL Driver**
->**NOTE**: optionally **Lombok**
