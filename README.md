@@ -153,7 +153,7 @@ Run `ng version` to make sure installation was correct.
 `spring.datasource.password={password}`
 
 ### Run the application
-- Open this folder in IntelliJ and run main method.
+- Open *spring* folder in **IntelliJ** and run main method.
 - Open your web browser and connect to http://localhost:8081/person. You should receive a table in *json* format that contains two people.
 - To get person by name enter http://localhost:8081/person/name/{name}
 - To get person by id enter http://localhost:8081/person/id/{id}
@@ -176,6 +176,8 @@ Run `ng version` to make sure installation was correct.
 	>**NOTE**: default username nad password: admin; geoserver
 
 ## Angular
+
+Change directory to *maprow-front*
 
 ### Install dependencies
 
