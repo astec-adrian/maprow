@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import * as L from 'leaflet';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-map',
@@ -41,6 +42,15 @@ export class MapComponent implements OnInit {
       [51.937, 15.5044], 
       {alt: 'Zielona Góra'}
     ).addTo(this.map).bindPopup('Welcome to Zielona Góra').openPopup();
+
+    var wfs_url = 'http://localhost:8080/geoserver/wfs?service=wfs&version=2.0.0&request=GetFeature&typeNames=topp:states&outputFormat=application/json';
+    $.getJSON(wfs_url).then
+    (
+      (response) =>
+      {
+        L.geoJSON(response).addTo(this.map)
+      }
+    )
   }
 
   private map: any
